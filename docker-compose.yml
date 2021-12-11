@@ -1,6 +1,7 @@
 version: '3'
 services:
   python:
+    container_name: Nasa_Cropharvest
     build: .
     volumes:
       - ./app/:/app/
